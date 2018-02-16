@@ -1,10 +1,13 @@
 import os
 import argparse
 
-
+'''
+page spider file
+'''
 def main(database: str, url_list_file: str):
     print("working with " + database)
     print("we are going scan " + url_list_file)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
